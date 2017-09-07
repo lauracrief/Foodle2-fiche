@@ -1,0 +1,312 @@
+@charset "UTF-8";
+<link rel="stylesheet" href="img/Coulisdeframboise.jpeg">
+
+.container{
+  padding: 0;
+  display: block;
+
+}
+.col-sm-6{
+
+  float:left;
+  width: 50%;
+
+}
+.col-sm-6bis{
+left: 350.578px;
+
+}
+.background-recipe{
+  border-radius: 4px;
+  margin-bottom: 36px;
+  box-shadow: 0 4px 8px 0 rgba(46,61,73,.1);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+
+
+}
+
+
+.recette-image{
+  background: transparent no-repeat 50%;
+  background-size: auto auto;
+  background-size: cover;
+  overflow: hidden;
+
+
+}
+
+.label{
+    padding: 4px;
+    width: 100px;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    background-color: #ed4343;
+
+}
+.description{
+
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  position: relative;
+  padding: 10px 10px;
+
+}
+
+.description .roundedImage {
+    height: 64px;
+    width: 64px;
+    top: -32px;
+  }
+
+.description-text {
+  height: 65px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin: -30px 20px 5px;
+}
+.recipe-name{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 16px;
+}
+
+.recipe-times{
+  position: absolute;
+  bottom: 20px;
+  font-size: 14px;
+  color: gray;
+
+
+
+
+}
+ .roundedImage{
+   border-radius: 100px;
+   text-align: center;
+   display: block;
+   height: 45px;
+   width: 45px;
+  top: -38px;
+  position: relative;
+  background: white
+
+
+
+}
+
+
+.roundedImage img{
+
+width: 34px;
+height: 34px;
+text-align:center;
+display: inline-block;
+
+
+}
+
+
+/*font-weight: bold;
+color: red;
+font-size: 24px;
+margin-top: 20px;
+margin-bottom: 10px;
+display: block;
+font-family: inherit;
+font-weight: 500;
+
+}
+h2 {
+width: 100%;
+max-width: 400px;
+text-align: left;
+margin: 10px auto;
+font-weight: 500;
+font-size: 1.2em;
+
+
+
+
+
+}
+  /*input{
+display:inline-block;
+padding-top:0;
+padding-bottom:0;
+padding-left:30px;
+padding-right:30px;
+border-style:solid;
+border-radius:25px;
+color:#0BBAB8;
+background-color:transparent;
+font-weight:300;
+font-size:18px;
+margin-top:15px;
+*/
+
+/*form {
+    /* Pour le centrer dans la page
+    margin: 0 auto;
+    width: 100%
+    /* Pour voir les limites du formulaire
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 65px;
+}
+
+section{
+
+  max-width: 400px;
+  text-align: left;
+  padding-top: 10px;
+  width: 80%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+
+}
+
+ textarea {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Pour harmoniser l'apparence des bordures des champs textuels
+    border: 1px solid #999;
+}
+
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes
+    vertical-align: top;
+    width: :100%
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #999;
+
+
+    /* Pour donner assez d'espace pour entrer du texte
+    height: 65px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30Px;
+    height: 65px;
+    width: 100%;
+    font-size: 1.1em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs
+    resize: none;
+    background-color:#F2F6F9;
+    border:1px solid #808080
+
+}
+
+
+
+
+button {
+
+    display:inline-block;
+    min-width:100px;
+    padding-top:0;padding-bottom:0;
+    padding-left:25px;padding-right:25px;
+    line-height:35px;
+    text-decoration:none;
+    text-align:center;
+    border-width:1px;
+    border-style:solid;
+    border-color:#0BBAB8;
+    border-radius:25px;
+    white-space:nowrap;
+    color:#0BBAB8;
+    background-color:transparent;
+    font-weight:300;
+    font-size:18px;
+    margin-top:15px;"
+}
+
+
+
+
+
+/*div.circle {
+  display: inline-block;
+  width: 200px;
+  height: 100px; /* as the half of the width
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background: white;
+
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+}
+.fiche {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:50%;
+
+}
+
+.description{
+background-color: white;
+
+}
+
+
+h3.fiche {
+  height:100%;
+  margin-left:10px;
+  font-weight:500;
+  color:#4E4E4E
+
+
+
+}  .footerfiche {
+    display: inline-block;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0BBAB8;
+    color: white;
+    background-color: #0BBAB8;
+    font-size: 18px;
+  /*
+
+
+
+}
